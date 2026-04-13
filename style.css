@@ -1,0 +1,76 @@
+body {
+    background: #0b0f0c;
+    font-family: Arial;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+.card {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #c7ff2e;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 20px #c7ff2e;
+}
+
+/* NOME */
+.nome {
+    color: #c7ff2e;
+    text-shadow: 0 0 10px #c7ff2e;
+}
+
+/* TIPO */
+.tipo {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* IMAGEM */
+.img {
+    width: 150px;
+    margin: 10px 0;
+}
+
+/* STATUS */
+.status {
+    text-align: left;
+}
+
+/* BARRA BASE */
+.barra {
+    width: 100%;
+    height: 10px;
+    background: #333;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* VIDA */
+.vida {
+    width: 100%;
+    height: 100%;
+    background: lime;
+    border-radius: 10px;
+}
+
+/* PODER */
+.poder {
+    width: 100;
+    height: 100%;
+    background: red;
+    border-radius: 10px;
+}
+
+/* DEFESA */
+.defesa {
+    width: 40%;
+    height: 100%;
+    background: cyan;
+    border-radius: 10px;
+}
